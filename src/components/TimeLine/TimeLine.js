@@ -19,7 +19,7 @@ const Timeline = () => {
 
   //   if (carouselRef.current) {
   //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
   //     scroll(carouselRef.current, scrollLeft);
   //   }
   // }
@@ -43,9 +43,12 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id='about'>
+      <SectionDivider />
+      <br />
+      <SectionTitle>About me</SectionTitle>
+      <SectionText>I'm a Computer Science student and Software Developer</SectionText>
+    </Section>
   );
 };
 
