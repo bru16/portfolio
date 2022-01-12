@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         I'm a Software Developer and a Computer Science student from Argentina.
       </SectionText>
-      <Button>Download CV</Button>
+      <a href='../../public/images/1.png' download><Button>Download CV</Button></a>
     </LeftSection>
   </Section>
 );

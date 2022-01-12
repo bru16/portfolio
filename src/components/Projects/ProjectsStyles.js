@@ -103,6 +103,8 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
+gap: 20px;
+flex-wrap: wrap;
 justify-content: space-around;
 padding: 2rem;
 `

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiNodejs, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiJavascript, DiJavascript1, DiNodejs, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,7 +8,7 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>DAjsandjsadkasdkASNsanksandksandsKANdASDNas ADSNsa dnsamdn sam dnas</SectionText>
+    <SectionText>These are the technologies that I'm comfortable with and have experience by doing different projects.</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
@@ -16,7 +16,8 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React, Next <br />
+            HTML & CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -26,17 +27,18 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js
+            Node, SQL and <br /> NOSQL databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiJavascript1 size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Languages</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            JavaScript, TypeScript <br />
+            and Java
           </ListParagraph>
         </ListContainer>
       </ListItem>
