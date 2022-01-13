@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en-GB'>
         <Head>
-          <meta name="image" property="og:image" content="images/image" />
+          <meta name="image" property="og:image" content="images/image.jpg" />
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         </Head>
         <body>
