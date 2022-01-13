@@ -11,7 +11,7 @@ const Header = () => (
       <Link href="/">
         <Anchor>
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>My Portfolio</Span>
         </Anchor>
       </Link>
     </Div1>

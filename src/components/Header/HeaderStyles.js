@@ -19,6 +19,7 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span`
+  cursor:pointer;
   font-size:2rem;
   margin-left: 5px;
 `
