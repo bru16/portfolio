@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiJavascript, DiJavascript1, DiNodejs, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiJavascript1, DiReact } from 'react-icons/di';
+import { BsCodeSlash } from 'react-icons/bs'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -32,7 +33,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiJavascript1 size="3rem" />
+        <BsCodeSlash size="3rem" />
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
