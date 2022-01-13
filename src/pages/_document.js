@@ -31,7 +31,12 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en-GB'>
         <Head>
-          <meta name="image" property="og:image" content="images/image.jpg" />
+          <meta name="description" content="My Portfolio" />
+          <meta name="title" property="og:title" content="Portfolio" />
+          <meta property="og:type" content="website" />
+          <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51819252714_35cb471adb_k.jpg" />
+          <meta name="description" property="og:description" content="My Portfolio" />
+          <meta name="author" content="Bruno Aburto" />
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         </Head>
         <body>
