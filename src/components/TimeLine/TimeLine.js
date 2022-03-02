@@ -7,9 +7,11 @@ const Timeline = () => {
       <br />
       <SectionTitle>About me</SectionTitle>
       <SectionText>I'm a Computer Science student and I'm passionate about Software Development & Technology.
-        I consider myself proactive, motivated, and with good communication skills.
-        <br /> I'm looking forward my first job in the industry,
-        so feel free to contact me, I'd love to hear from you 😃.
+        <br />
+        I consider myself proactive, motivated, and creative. Always looking for new challenges, able to
+        fit in different work environments.
+        <br /> I would like to be part of a team that allows me to develop my abilities and thus
+        be able to grow professionally 😃
       </SectionText>
     </Section>
   );
